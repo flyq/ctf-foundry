@@ -17,7 +17,10 @@ Collect solidity/evm related ctf and use foundry to reproduce
 - Capture the Ether
   - Warmup
     - [Deploy a contract](./Capture_the_Ether/Warmup/Deploy_a_contract/)
-  - [Lotteries](./Capture_the_Ether/Lotteries/)
+    - [Call me](./Capture_the_Ether/Warmup/Call_me/)
+    - [Choose a nickname](./Capture_the_Ether/Warmup/Choose_a_nickname/)
+  - Lotteries
+    - 
 
 ## how to use(Example)
 ### build
