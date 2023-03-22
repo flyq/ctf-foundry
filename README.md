@@ -1,5 +1,46 @@
 # ctf-foundry
 
+Collect solidity/evm related ctf and use foundry to reproduce
+
+## content
+- [ctf-foundry](#ctf-foundry)
+  - [content](#content)
+  - [Solutions](#solutions)
+  - [how to use(Example)](#how-to-useexample)
+    - [build](#build)
+    - [test](#test)
+    - [deploy](#deploy)
+  - [reference](#reference)
+
+## Solutions
+
+- Capture the Ether
+  - Warmup
+    - [Deploy a contract](./Capture_the_Ether/Warmup/Deploy_a_contract/)
+  - [Lotteries](./Capture_the_Ether/Lotteries/)
+
+## how to use(Example)
+### build
 ```sh
-forge script script/Counter.s.sol:CounterScript rpc-url $GOERLI_RPC_URL --fork-url $GOERLI_RPC_URL --broadcast --verify -vvvv
+forge build -C ./Counter
 ```
+
+### test
+```sh
+forge test -C ./Counter
+```
+
+### deploy
+```sh
+cp .env.example .env
+
+# add the keys in .env
+
+source .env
+
+forge script ./Counter/script/Counter.s.sol:CounterScript --fork-url $GOERLI_RPC_URL --broadcast -vvv
+```
+
+## reference
+* [Capture the Ether](https://capturetheether.com/)
+* 

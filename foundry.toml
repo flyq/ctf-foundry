@@ -1,5 +1,5 @@
 [profile.default]
-src = 'src'
+src = 'Counter/src'
 out = 'out'
 libs = ['lib']
 

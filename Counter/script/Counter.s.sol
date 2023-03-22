@@ -1,5 +1,6 @@
-// SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+pragma solidity ^0.8.19;
 
 import "forge-std/Script.sol";
 import "../src/Counter.sol";
@@ -11,7 +12,7 @@ contract CounterScript is Script {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         vm.startBroadcast(deployerPrivateKey);
 
-        Counter c = new Counter();
+        new Counter();
 
         vm.stopBroadcast();
     }
