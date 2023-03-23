@@ -20,7 +20,12 @@ Collect solidity/evm related ctf and use foundry to reproduce
     - [Call me](./Capture_the_Ether/Warmup/Call_me/)
     - [Choose a nickname](./Capture_the_Ether/Warmup/Choose_a_nickname/)
   - Lotteries
-    - 
+    - [Guess the number](./Capture_the_Ether/Lotteries/Guess_the_number/)
+    - [Guess the secret number](./Capture_the_Ether/Lotteries/Guess_the_secret_number/)
+    - [Guess the random number](./Capture_the_Ether/Lotteries/Guess_the_random_number/)
+    - [Guess the new number](./Capture_the_Ether/Lotteries/Guess_the_new_number/)
+    - [Predict the future](./Capture_the_Ether/Lotteries/Predict_the_future/)
+    - [Predict the block hash](./Capture_the_Ether/Lotteries/Predict_the_block_hash/)
 
 ## how to use(Example)
 ### build
@@ -30,7 +35,7 @@ forge build -C ./Counter
 
 ### test
 ```sh
-forge test -C ./Counter
+forge test -C ./Counter -vvv
 ```
 
 ### deploy
