@@ -25,5 +25,6 @@ contract GuessTheNumberChallengeTest is Test {
         emit log_named_uint("alice value", laterValue);
 
         assertEq(beforeValue + 1 ether, laterValue);
+        assertEq(guessTheNumberChallenge.isComplete(), true);
     }
 }
