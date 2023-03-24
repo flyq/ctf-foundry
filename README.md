@@ -26,6 +26,8 @@ Collect solidity/evm related ctf and use foundry to reproduce
     - [Guess the new number](./Capture_the_Ether/Lotteries/Guess_the_new_number/)
     - [Predict the future](./Capture_the_Ether/Lotteries/Predict_the_future/)
     - [Predict the block hash](./Capture_the_Ether/Lotteries/Predict_the_block_hash/)
+- QuillCTF
+  - [Slot Puzzle](./QuillCTF/Slot_Puzzle/)
 
 ## how to use(Example)
 ### build
@@ -51,4 +53,4 @@ forge script ./Counter/script/Counter.s.sol:CounterScript --fork-url $GOERLI_RPC
 
 ## reference
 * [Capture the Ether](https://capturetheether.com/)
-* 
+* [QuillCTF](https://quillctf.super.site/)
