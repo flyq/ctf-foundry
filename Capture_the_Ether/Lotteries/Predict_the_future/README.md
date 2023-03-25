@@ -1,6 +1,6 @@
 # Predict the block hash
 
-we can change `10` from `0` to `10`, and run the test to try attack, and each failed attempt won't lost ether, as the Attacker contract will revert if not success.
+we can change `10` from `0` to `10`, and run the test to try attack in different block, and each failed attempt won't change guesser to address(0), as the Attacker contract will revert if not success.
 
 ```solidity
             attacker.lockInGuess{value: 1 ether}(10);
