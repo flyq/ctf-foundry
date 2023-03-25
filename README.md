@@ -2,15 +2,6 @@
 
 Collect solidity/evm related ctf and use foundry to reproduce
 
-## content
-- [ctf-foundry](#ctf-foundry)
-  - [content](#content)
-  - [Solutions](#solutions)
-  - [how to use(Example)](#how-to-useexample)
-    - [build](#build)
-    - [test](#test)
-    - [deploy](#deploy)
-  - [reference](#reference)
 
 ## Solutions
 
@@ -26,6 +17,13 @@ Collect solidity/evm related ctf and use foundry to reproduce
     - [Guess the new number](./Capture_the_Ether/Lotteries/Guess_the_new_number/)
     - [Predict the future](./Capture_the_Ether/Lotteries/Predict_the_future/)
     - [Predict the block hash](./Capture_the_Ether/Lotteries/Predict_the_block_hash/)
+  - Math
+    - [Token sale](./Capture_the_Ether/Math/Token_sale/)
+    - [Token whale](./Capture_the_Ether/Math/Token_whale/)
+    - [Retirement fund](./Capture_the_Ether/Math/Retirement_fund/)
+    - [Mapping](./Capture_the_Ether/Math/Mapping/)
+    - [Donation](./Capture_the_Ether/Math/Donation/)
+    - [Fifty years](./Capture_the_Ether/Math/Fifty_years/)
 - QuillCTF
   - [Slot Puzzle](./QuillCTF/Slot_Puzzle/)
 
