@@ -30,5 +30,6 @@ jobs:
 
       - name: Run Forge tests
         run: |
-          forge test -vvv
+          forge test -C ./Capture_the_Ether -vvv
+          forge test -C ./Counter
         id: test

