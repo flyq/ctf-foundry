@@ -14,6 +14,8 @@ contract DonationChallengeTest is Test {
     }
 
     // this bug is fixed in solidity 0.6
+    // error[3464]: TypeError: This variable is of storage pointer type and can be accessed 
+    // without prior assignment, which would lead to undefined behaviour.
     function testDonation() public {
         emit log_named_address("owner", donationChallenge.owner());
 

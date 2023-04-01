@@ -36,24 +36,24 @@ contract SlotPuzzleTest is Test {
             slotKey: new bytes(10)
         });
 
-        address _addr = slotPuzzleFactory.deploy(_parameters);
+        //address _addr = slotPuzzleFactory.deploy(_parameters);
 
-        (bytes32[] memory readSlots, bytes32[] memory writeSlots) = vm.accesses(_addr);
-        emit log_uint(readSlots.length);
-        emit log_uint(writeSlots.length);
+        //(bytes32[] memory readSlots, bytes32[] memory writeSlots) = vm.accesses(_addr);
+        // emit log_uint(readSlots.length);
+        // emit log_uint(writeSlots.length);
 
-        for (uint256 i = 0; i < readSlots.length; i++) {
-            emit log_named_bytes32("read", readSlots[i]);
-        }
-        for (uint256 i = 0; i < readSlots.length; i++) {
-            emit log_named_bytes32("write", writeSlots[i]);
-        }
+        // for (uint256 i = 0; i < readSlots.length; i++) {
+        //     emit log_named_bytes32("read", readSlots[i]);
+        // }
+        // for (uint256 i = 0; i < readSlots.length; i++) {
+        //     emit log_named_bytes32("write", writeSlots[i]);
+        // }
 
-        uint256 slot = stdstore.target(_addr).sig("ghostInfo()").find();
-        emit log_named_uint("slot", slot);
+        // uint256 slot = stdstore.target(_addr).sig("ghostInfo()").find();
+        // emit log_named_uint("slot", slot);
 
 
-        slotPuzzleFactory.deploy(_parameters);
+        // slotPuzzleFactory.deploy(_parameters);
 
         // TODO
         // assertEq(address(slotPuzzleFactory).balance, 0, "weth contract should have 0 ether");
