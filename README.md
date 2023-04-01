@@ -50,5 +50,13 @@ forge script ./Counter/script/Counter.s.sol:CounterScript --fork-url $GOERLI_RPC
 ```
 
 ## reference
+* Lists
+  * [Blocksec CTFs](https://github.com/blockthreat/blocksec-ctfs)
+  * [Awesome Ethereum Security](https://github.com/crytic/awesome-ethereum-security)
+  * [CTFGym](https://github.com/PumpkingWok/CTFGym)
 * [Capture the Ether](https://capturetheether.com/)
 * [QuillCTF](https://quillctf.super.site/)
+* [Ethernaut](https://ethernaut.openzeppelin.com/)
+* [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/)
+* [Paradigm CTF](https://ctf.paradigm.xyz/)
+* [Mr Steal Yo Crypto](https://mrstealyocrypto.xyz/)
