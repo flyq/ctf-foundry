@@ -53,6 +53,7 @@ forge script ./Counter/script/Counter.s.sol:CounterScript --fork-url $GOERLI_RPC
 * Lists
   * [Blocksec CTFs](https://github.com/blockthreat/blocksec-ctfs)
   * [Awesome Ethereum Security](https://github.com/crytic/awesome-ethereum-security)
+  * [CTF Blockchain Challenges](https://github.com/minaminao/ctf-blockchain)
   * [CTFGym](https://github.com/PumpkingWok/CTFGym)
 * [Capture the Ether](https://capturetheether.com/)
 * [QuillCTF](https://quillctf.super.site/)
